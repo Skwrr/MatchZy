@@ -27,6 +27,12 @@ public partial class MatchZy
 
     public bool IsTeamReady(int team)
     {
+        foreach (var key in playerData.Keys)
+        {
+            if (!playerData[key].IsValid) continue;
+            playerReadyStatus[key] = true;
+        }
+
         // if (matchStarted) return true;
 
         int minPlayers = GetPlayersPerTeam(team);
