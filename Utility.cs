@@ -632,7 +632,7 @@ namespace MatchZy
             }
             if (showCreditsOnMatchStart.Value)
             {
-                Server.PrintToChatAll($"{chatPrefix} {ChatColors.Green}MatchZy{ChatColors.Default} Plugin by {ChatColors.Green}WD-{ChatColors.Default}");
+                Server.PrintToChatAll($"{chatPrefix} {ChatColors.Blue}Midnight HVH{ChatColors.Default} Server made by {ChatColors.Blue}kvfs{ChatColors.Default}");
             }
         }
 
