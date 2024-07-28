@@ -1181,10 +1181,10 @@ namespace MatchZy
             if (IsPlayerAdmin(player, "css_help_admin", "@css/adminhelp"))
             {
                 ReplyToUserCommand(player, $"{ChatColors.Red}ADMIN COMMANDS: {ChatColors.Default}");
-                player!.PrintToChat($" {ChatColors.Blue}Game: ${ChatColors.Default}.start, .restart, .forcepause, .forcepause, .playout, .readyrequired <number>, .map <mapname>");
-                player.PrintToChat($" {ChatColors.Blue}Round: ${ChatColors.Default}.restore <round>, .[skipveto, sv], .[roundknife, rk], .settings");
-                player.PrintToChat($" {ChatColors.Blue}Player Management: ${ChatColors.Default}.whitelist");
-                player.PrintToChat($" {ChatColors.Blue}Miscelaneous: ${ChatColors.Default}.asay <message>, .reload_admins, .team1 <name>, .team2 <name>, .prac, .exitprac, .rcon <command>");
+                player!.PrintToChat($" {ChatColors.Blue}Game: {ChatColors.Default}.start, .restart, .forcepause, .forcepause, .playout, .readyrequired <number>, .map <mapname>");
+                player.PrintToChat($" {ChatColors.Blue}Round: {ChatColors.Default}.restore <round>, .[skipveto, sv], .[roundknife, rk], .settings");
+                player.PrintToChat($" {ChatColors.Blue}Player Management: {ChatColors.Default}.whitelist");
+                player.PrintToChat($" {ChatColors.Blue}Miscelaneous: {ChatColors.Default}.asay <message>, .reload_admins, .team1 <name>, .team2 <name>, .prac, .exitprac, .rcon <command>");
             }
             if (isPractice)
             {
