@@ -313,9 +313,9 @@ namespace MatchZy
 
                 lastBackupFileName = "";
 
-                // Unready all players
+                // Ready players bypass
                 foreach (var key in playerReadyStatus.Keys) {
-                    playerReadyStatus[key] = false;
+                    playerReadyStatus[key] = true;
                 }
 
                 teamReadyOverride = new() 
