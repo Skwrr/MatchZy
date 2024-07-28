@@ -83,6 +83,8 @@ public partial class MatchZy
                     AutoStart();
                 }
             }
+            CheckLiveRequired();
+            HandleClanTags();
             return HookResult.Continue;
 
         }

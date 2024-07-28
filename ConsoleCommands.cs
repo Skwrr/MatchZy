@@ -52,7 +52,7 @@ namespace MatchZy
             if (readyAvailable && !matchStarted) {
                 if (player.UserId.HasValue) {
                     if (!playerReadyStatus.ContainsKey(player.UserId.Value)) {
-                        playerReadyStatus[player.UserId.Value] = false;
+                        playerReadyStatus[player.UserId.Value] = true;
                     }
                     if (playerReadyStatus[player.UserId.Value]) {
                         // player.PrintToChat($"{chatPrefix} You are already ready!");
